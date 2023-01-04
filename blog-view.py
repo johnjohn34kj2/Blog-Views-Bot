@@ -29,7 +29,7 @@ def run():
      response = tr.get(site, headers=headers,verify=False)
 #     time.sleep(10)
 #     print(response.text)  
-     print "["+str(i)+"]" + " Blog View Added With IP:" +  tr.get('http://ipecho.net/plain').content
+     print ("["+str(i)+"]" + " Blog View Added With IP:" +  tr.get('http://ipecho.net/plain').content)
      tr.reset_identity()
   
 
